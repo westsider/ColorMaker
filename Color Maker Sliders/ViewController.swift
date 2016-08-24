@@ -4,7 +4,10 @@
 //
 //  Created by Warren Hansen on 8/24/16.
 //  Copyright © 2016 Warren Hansen. All rights reserved.
-//
+/*--------------------------------------------------------------------|
+|         Sliders intentionally set to bottom to make it              |
+|         easier to see the color our user is creating                |
+---------------------------------------------------------------------*/
 
 import UIKit
 
@@ -20,6 +23,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // UIView border
+        myView.layer.borderWidth = 3
+        myView.layer.borderColor = UIColor.whiteColor().CGColor
         
         // custom thumb color
         redSlider.thumbTintColor = UIColor.redColor()
