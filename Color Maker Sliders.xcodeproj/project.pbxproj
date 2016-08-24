@@ -54,9 +54,9 @@
 		A6A7EC4C1D6E396F00113433 /* Color Maker Sliders */ = {
 			isa = PBXGroup;
 			children = (
-				A6A7EC4D1D6E396F00113433 /* AppDelegate.swift */,
 				A6A7EC4F1D6E396F00113433 /* ViewController.swift */,
 				A6A7EC511D6E396F00113433 /* Main.storyboard */,
+				A6A7EC4D1D6E396F00113433 /* AppDelegate.swift */,
 				A6A7EC541D6E396F00113433 /* Assets.xcassets */,
 				A6A7EC561D6E396F00113433 /* LaunchScreen.storyboard */,
 				A6A7EC591D6E396F00113433 /* Info.plist */,
